@@ -1,0 +1,16 @@
+img {
+    width : 200px;
+    height: 200px;
+    padding : 10%;
+}
+h1 {
+    color: white;
+}
+p{
+ color: #fff;
+    font-size:15px;
+    font-family: Arial;
+}
+body {
+    background: darkcyan;
+}
