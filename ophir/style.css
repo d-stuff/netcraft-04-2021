@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #f1f1f1;
+}
+
+header {
+    background-color: cornflowerblue;
+    background-image: url("images/escheresque.png");
+    box-shadow: slategray 6px 6px;
+    border-radius: 5px;
+    width: 650px;
+    padding: 20px;
+}
