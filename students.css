@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.teachers-wrapper {
+    display: flex;
+}
+
+.teacher-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 16px;
+    min-width: 420px;
+    margin-left: 20px;
+}
+
+.teacher-photo {
+    border-radius: 50%;
+    height: 140px;
+    filter: grayscale(100%);
+}
+.teacher-name {
+    font-size: 20px;
+    margin: 2px;
+    text-shadow: 1px 1px 1px black;
+}
+.teacher-description {
+    margin: 0;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px dimgrey;
+}
+
+.students-container {
+    text-align: center;
+    color: white;
+    padding: 70px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-image: url("assets/laptop-illustration.jpeg");
+    background-size: contain;
+    box-shadow: 0 1px 2px rebeccapurple;
+}
+
+.students-title {
+    font-size: 24px;
+    font-weight: 900;
+    text-shadow: 0 1px 2px black;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.student-card {
+    background-color: black;
+    border-radius: 20px;
+    width: 400px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 12px;
+    transition: transform 0.3s ease-in-out,
+                box-shadow 0.2s ease-in-out;
+    padding: 2px 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 black;
+}
+
+.student-card:hover {
+    box-shadow: 0 3px 5px rgba(104,59,97, 0.7);
+    transform: translateY(-3px);
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.student-name {
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+
+.student-card:hover .student-contact {
+    opacity: 1.0;
+}
+
+.student-contact {
+    /*opacity: 0;*/
+    display: flex;
+    align-items: center;
+    transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    right: 10px;
+    opacity: 0;
+}
+
+.github {
+    background-image: url("assets/github-logo.png");
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.github a {
+    padding: 19px;
+}
+
+.student-contact li {
+    margin: 0 5px;
+}
+
+.email {
+    background-image: url("assets/email-logo.png");
+    height: 20px;
+    width: 32px;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.email a {
+    padding: 19px;
+}
