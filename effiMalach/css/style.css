@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+header{
+  width: 100%;
+  background: rgba(41, 151, 170, 0.959);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .avatar {
+  border-radius: 50%;
+  z-index: 1;
+}
+header .avatar img {
+  border-radius: 50%;
+  width: 180px;
+  margin: 2px; 
+}
+
+.title{
+display: flex;
+flex-direction: column ;
+}
+.title p{
+margin: 0;
+padding: 0;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+}
+.links li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 175%;
+    margin-left: 5px;
+}
+
+.About-Me{ 
+width: 20%;
+}
+
+
+
+.skills {
+  flex:1;
+  padding-right: 10px;
+  border: none;
+  display: flex;
+  background: rgba(35, 109, 122, 0.959);
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.skills h1 {
+  margin: 5px;
+  margin-left: 5px;
+  font-weight: bold;
+  text-align: left;
+  font-size: unset;
+}
+.skills .skill {
+  padding: 3px;
+}
+.skills .skill .progress {
+  background-color: #eee;
+  height: 15px;
+  width: 100%;
+}
+.skills .skill .progress .percentage {
+  height: 100%;
+  background-color: #aaa;
+  animation: load 2s  forwards;
+}
+
+@keyframes load {
+  from {
+    width: 0;
+  }
+  to {
+    width: width;
+  }
+}
+
+
+.education{
+  flex:2;
+  background: rgba(35, 109, 122, 0.959);
+  padding-left: 10px;
+  border: none;
+  display:flex;
+  flex-direction: column;
+}
+.experience{
+  flex:2;
+  background: rgba(35, 109, 122, 0.959);
+  padding-left: 10px;
+  border: none;
+  display:flex;
+  flex-direction: column;
+}
+
+.experience,.education{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
