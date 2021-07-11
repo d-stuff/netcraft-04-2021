@@ -2,59 +2,128 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="students.css" />
+  <link rel="stylesheet" type="text/css" href="./student-item.css" />
+  <link rel="stylesheet" type="text/css" href="./students-list.css" />
+  <link rel="stylesheet" type="text/css" href="./students-layout.css" />
+  <link href="./icons/style.css" rel="stylesheet">
+
   <title>Students</title>
 </head>
 <body>
-  <h1 class="course-title">Netcraft Full-Stack Development April 2021</h1>
-  <main class="students-container">
-    <section class="teachers-wrapper">
-      <div class="teacher-container">
-        <img class="teacher-photo" src="assets/photos/evy.png" alt="Evyatar Rozner" />
-        <h1 class="teacher-name">Evyatar Rosner</h1>
-        <p class="teacher-description">Full-Stack Architect, Consultant & Lecturer</p>
-      </div>
-      <div class="teacher-container">
-        <img class="teacher-photo" src="assets/photos/dml.jpeg" alt="David Meir-Levy" />
-        <h1 class="teacher-name">David Meir-Levy</h1>
-        <p class="teacher-description">Full-Stack Javascript Developer, Platforms Builder</p>
-      </div>
-    </section>
-    <h2 class="students-title">Let's stay in touch!</h2>
-    <ol>
-      <li class="student-card">
-        <h1 class="student-name">David Meir-Levy</h1>
-        <ul class="student-contact">
-          <li class="github"><a href="https://github.com/davidmeirlevy" target="_blank"></a></li>
-          <li class="email"><a href="mailto:david@davidlevy.co.il"></a></li>
-        </ul>
-      </li>
-      <li class="student-card">
-        <h1 class="student-name">Evyatar Rosner</h1>
-        <ul class="student-contact">
-          <li class="github"><a href="https://github.com/evyros" target="_blank"></a></li>
-          <li class="email"><a href="mailto:me@evyatarrosner.com"></a></li>
-        </ul>
-      </li>
-      <li class="student-card">
-        <h1 class="student-name">Ophir Bucai</h1>
-        <ul class="student-contact">
-          <li class="github"><a href="https://github.com/ophirbucai" target="_blank"></a></li>
-          <li class="email"><a href="mailto:ophirbucai@gmail.com"></a></li>
-        </ul>
-      </li>
+  <section class="container">
+    <div class="logo">
+      <img class="logo" src="./netcraft_logo.png">
+    </div>
+    <form method="get" action="#">
+      <input name="q" placeholder="search student...">
+      <button><i class="icon-search"></i></button>
+    </form>
+  </section>
+ <main class="students-list">
+  <div class="student-item">
+    <h3>Effi Malach</h3>
+    <a class="student-image"><img src="./students-profile-imgs/blank-head-profile-pic-for-a-man.jpg"></a>
+    <p class="about-me">this is my bio...</p>
+    <a class="cv" href="./effiMalach/index.html" title="cv" target="_blank">cv</a> 
+    <a class="github" href="https://github.com/effimalach" title="Github" target="_blank"><i class="icon-github"></i></a>
+  </div>
 
+<div class="student-item">
+  <h3>Student Name</h3>
+  <a class="student-image"><img src="./students-profile-imgs/blank-head-profile-pic-for-a-man.jpg"></a>
+  <p class="about-me">this is my bio...</p>
+  <a class="cv" href="#" title="cv" target="_blank">cv</a> 
+  <a class="github" href="#" title="Github" target="_blank"><i class="icon-github"></i></a>
+</div>
 
-<!-- template -- please duplicate the following block above this comment line, then add your name, github and email address -->
-      <li class="student-card">
-        <h1 class="student-name">Student Name</h1>
-        <ul class="student-contact">
-          <li class="github"><a href="#" target="_blank"></a></li>
-          <li class="email"><a href="mailto:#"></a></li>
-        </ul>
-      </li>
+<div class="student-item">
+  <h3>Student Name</h3>
+  <a class="student-image"><img src="./students-profile-imgs/blank-head-profile-pic-for-a-man.jpg"></a>
+  <p class="about-me">this is my bio...</p>
+  <a class="cv" href="#" title="cv" target="_blank">cv</a> 
+  <a class="github" href="#" title="Github" target="_blank"><i class="icon-github"></i></a>
+</div>
 
-    </ol>
-  </main>
+<div class="student-item">
+  <h3>Student Name</h3>
+  <a class="student-image"><img src="./students-profile-imgs/blank-head-profile-pic-for-a-man.jpg"></a>
+  <p class="about-me">this is my bio...</p>
+  <a class="cv" href="#" title="cv" target="_blank">cv</a> 
+  <a class="github" href="#" title="Github" target="_blank"><i class="icon-github"></i></a>
+</div>
+
+<div class="student-item">
+  <h3>Student Name</h3>
+  <a class="student-image"><img src="./students-profile-imgs/blank-head-profile-pic-for-a-man.jpg"></a>
+  <p class="about-me">this is my bio...</p>
+  <a class="cv" href="#" title="cv" target="_blank">cv</a> 
+  <a class="github" href="#" title="Github" target="_blank"><i class="icon-github"></i></a>
+</div>
+
+<div class="student-item">
+  <h3>Student Name</h3>
+  <a class="student-image"><img src="./students-profile-imgs/blank-head-profile-pic-for-a-man.jpg"></a>
+  <p class="about-me">this is my bio...</p>
+  <a class="cv" href="#" title="cv" target="_blank">cv</a> 
+  <a class="github" href="#" title="Github" target="_blank"><i class="icon-github"></i></a>
+</div>
+
+<div class="student-item">
+  <h3>Student Name</h3>
+  <a class="student-image"><img src="./students-profile-imgs/blank-head-profile-pic-for-a-man.jpg"></a>
+  <p class="about-me">this is my bio...</p>
+  <a class="cv" href="#" title="cv" target="_blank">cv</a> 
+  <a class="github" href="#" title="Github" target="_blank"><i class="icon-github"></i></a>
+</div>
+
+<div class="student-item">
+  <h3>Student Name</h3>
+  <a class="student-image"><img src="./students-profile-imgs/blank-head-profile-pic-for-a-man.jpg"></a>
+  <p class="about-me">this is my bio...</p>
+  <a class="cv" href="#" title="cv" target="_blank">cv</a> 
+  <a class="github" href="#" title="Github" target="_blank"><i class="icon-github"></i></a>
+</div>
+
+<div class="student-item">
+  <h3>Student Name</h3>
+  <a class="student-image"><img src="./students-profile-imgs/blank-head-profile-pic-for-a-man.jpg"></a>
+  <p class="about-me">this is my bio...</p>
+  <a class="cv" href="#" title="cv" target="_blank">cv</a> 
+  <a class="github" href="#" title="Github" target="_blank"><i class="icon-github"></i></a>
+</div>
+
+<div class="student-item">
+  <h3>Student Name</h3>
+  <a class="student-image"><img src="./students-profile-imgs/blank-head-profile-pic-for-a-man.jpg"></a>
+  <p class="about-me">this is my bio...</p>
+  <a class="cv" href="#" title="cv" target="_blank">cv</a> 
+  <a class="github" href="#" title="Github" target="_blank"><i class="icon-github"></i></a>
+</div>
+
+<div class="student-item">
+  <h3>Student Name</h3>
+  <a class="student-image"><img src="./students-profile-imgs/blank-head-profile-pic-for-a-man.jpg"></a>
+  <p class="about-me">this is my bio...</p>
+  <a class="cv" href="#" title="cv" target="_blank">cv</a> 
+  <a class="github" href="#" title="Github" target="_blank"><i class="icon-github"></i></a>
+</div>
+
+<div class="student-item">
+  <h3>Student Name</h3>
+  <a class="student-image"><img src="./students-profile-imgs/blank-head-profile-pic-for-a-man.jpg"></a>
+  <p class="about-me">this is my bio...</p>
+  <a class="cv" href="#" title="cv" target="_blank">cv</a> 
+  <a class="github" href="#" title="Github" target="_blank"><i class="icon-github"></i></a>
+</div>
+
+<div class="student-item">
+  <h3>Student Name</h3>
+  <a class="student-image"><img src="./students-profile-imgs/blank-head-profile-pic-for-a-man.jpg"></a>
+  <p class="about-me">this is my bio...</p>
+  <a class="cv" href="#" title="cv" target="_blank">cv</a> 
+  <a class="github" href="#" title="Github" target="_blank"><i class="icon-github"></i></a>
+</div>
+ 
+</main>
 </body>
 </html>

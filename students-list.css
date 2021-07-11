@@ -1,0 +1,17 @@
+
+   .students-list {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    
+}
+ .student-item {
+    width: 350px;
+    margin: 20px;
+    background-color: rgb(129, 61, 129);
+}
+
+  
