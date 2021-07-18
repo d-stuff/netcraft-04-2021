@@ -1,0 +1,41 @@
+.student-item {
+  display: grid;
+  grid-template-areas: "thumbnail thumbnail"
+		               "title title"
+		               "about-me about-me"
+		               " cv github";
+  grid-gap:  10px;
+}
+  h3 {
+	grid-area: title;
+	margin: 0;
+	padding: 0 0  10px  10px;
+	border-bottom: 1px solid black;
+	font-weight: normal;
+  }
+
+  .student-image {
+	grid-area: thumbnail;
+  }
+  img{
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+  .about-me{
+	grid-area: about-me;
+	text-align: left;
+  }
+  .cv{
+	grid-area: cv;
+	text-align: center;
+	color: black;
+  }
+
+  .github{
+	grid-area: github;
+	text-align: center;
+	color: black;
+
+  }
+
